@@ -251,9 +251,9 @@ theme_config:
     # 文章列表（主页、自定义的列表）布局
     on_list:
       # 列表中每一篇文章的meta信息
-      meta: [title, tags, updated, counter, top]
+      meta: [title, tags, updated, wordcount, top]
       # 列表类页面的侧边栏
-      sidebar: [wiki-hexo-theme, blogger, category, tagcloud]
+      sidebar: [blogger, category, tagcloud]
       # read more button
       readmore: 阅读全文 <i class="fas fa-chevron-right"></i>
     # 页面布局
@@ -264,8 +264,8 @@ theme_config:
       # 其中，title只在header中有效，music和thumbnail无需在这里设置，文章中有则显示
       # 如果tags放置在meta.header中，那么在post列表中不显示（因为卡片下方已经有了）
       meta:
-        header: [title, author, '<br>', category, date, updated, wordcount]
-        footer: [share]
+        header: [title, category, date, updated, counter, share]
+        footer: [tags]
       # 文章页面的侧边栏
       sidebar: [toc, related_posts]
     # 文章布局，参数继承自 on_page
