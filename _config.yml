@@ -10,7 +10,8 @@ keywords: 'wangweisong,Hexo,Hexo主题,Blog,博客'
 author: wangweisong
 language: zh-CN
 timezone: ''
-#avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
+avatar: https://img.vim-cn.com/0e/ea7cdd571a5685183b48455084485e706cad5a.jpg
+favicon: https://img.vim-cn.com/86/4560390fd81275c84b6ca91db4957d52116b38
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
