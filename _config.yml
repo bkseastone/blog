@@ -265,7 +265,7 @@ theme_config:
       # 如果tags放置在meta.header中，那么在post列表中不显示（因为卡片下方已经有了）
       meta:
         header: [title, category, date, updated, counter, share]
-        footer: [tags]
+        footer: [tags, share]
       # 文章页面的侧边栏
       sidebar: [toc, related_posts]
     # 文章布局，参数继承自 on_page
@@ -493,7 +493,7 @@ theme_config:
       clientSecret: e3007743ce92f91c63d50d4fc292593abb23b826
       repo: bkseastone.github.io
       owner: bkseastone
-      admin: #[bkseastone]
+      admin: [bkseastone]
 
   footer:
     # layout of footer: [aplayer, social, license, info, copyright]
