@@ -27,7 +27,7 @@ mathjax: true
 
 建立“子栈”的概念。从一个函数A跳转到另一个函数B时会创建一个临时堆栈，称函数A（调用者）所在的堆栈为父栈，称函数B（被调用者）所在的堆栈为子栈。调用者的活动记录被看为父栈的栈框架，代表着父栈的结束子栈的开始。
 
-![childStack](https://bkseastone.github.io/images/dataStructure/childStack.jpg)
+![childStack](https://img.vim-cn.com/56/d15757d87fe68ea6978d69616d15b73fff94b8.jpg)
 
 函数的活动记录按出栈顺序包括五个部分（真正能称为函数活动记录的只有2和3，故1-5称为栈框架更合理）：
 

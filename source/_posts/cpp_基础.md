@@ -8,6 +8,8 @@ description: 摘要描述
 mathjax: true
 ---
 
+![cpp](https://img.vim-cn.com/3d/d8e0cb1c75e3cf027e4173075c5065edd6aab0.png)
+
 # 前言
 
 若将计算机语言分类，有多种分类方式，最一般化的分类为 statically-typed（变量类型在编译时确定，并不再改变）和 dynamically-typed（变量类型在运行时确定，并可动态变化）两种，还有很多可以作为补充修饰的分类，如 strongly-typed, duck typing 等。cpp 为保证运行速度在编译完成后便确定了所有的数据类型，所以属于 statically-typed language。
